@@ -1,0 +1,11 @@
+.btn-submit {
+  margin-top: 1em;
+}
+
+.error {
+  color: var(--accent);
+}
+
+.success {
+  color: var(--primary);
+}

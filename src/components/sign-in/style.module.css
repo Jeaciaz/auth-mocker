@@ -1,0 +1,7 @@
+.error {
+  color: var(--accent);
+}
+
+.success {
+  color: var(--primary);
+}

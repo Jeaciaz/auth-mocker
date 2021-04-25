@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--text);
+  font-family: 'Lexend', sans-serif;
+}
+
+/* Variables */
+:root {
+  /* Colors */
+
+  --primary: rgb(24, 50, 94);
+  --secondary: rgb(94, 10, 70);
+  --accent: rgb(209, 47, 55);
+  --text: rgb(51, 51, 51);
+
+  /* Raw Colors */
+
+  --primary-raw: 24, 50, 94;
+  --secondary-raw: 94, 10, 70;
+  --accent-raw: 209, 47, 55;
+  --text-raw: 51, 51, 51;
+
+  /* Breakpoints */
+
+  --mobile-breakpoint: 664px;
+}
+
+@custom-media --mobile (max-width: 664px);

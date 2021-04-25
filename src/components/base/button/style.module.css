@@ -1,0 +1,16 @@
+.btn {
+  border: none;
+  background-color: var(--primary);
+  color: white;
+  padding: 0.5em 1em;
+  font: inherit;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: transform 0.15s ease-in-out;
+
+  &:active {
+    transform: scale(0.9);
+  }
+}

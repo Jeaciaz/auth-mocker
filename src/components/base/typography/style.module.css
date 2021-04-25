@@ -1,0 +1,11 @@
+.title {
+  display: inline-block;
+  background: linear-gradient(to right, var(--primary), var(--accent));
+  background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+}
+
+.text {
+  margin: 1em 0;
+}
